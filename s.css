@@ -1,0 +1,19 @@
+.imageUser {
+  width: 150px;
+  height: 200px;
+}
+.img-wrapper {
+  position: relative;
+  width: 150px
+}
+.img-btn {
+  position: absolute;
+  top: 120px;
+  height: 25px;
+  left: 50px;
+  right:0; /* gave right, to align the button in center */
+  margin:0 auto; /* as button as fixed width, margin aligns in center */
+  width: 100px;
+  display: none
+}
+.img-wrapper:hover .img-btn {display:block} /* whenever mouse hovers the image wrapper, the button is shown, other time, its hidden */
